@@ -10,7 +10,6 @@ class Menu extends React.Component {
 
   render() {
     return <div class="menuDiv">
-      <h1>Menu Here</h1>
       <h1 onClick={() => this.pickGame("def")}>STAR DEFENDER</h1>
       <img src="../art/defender_pic.png" onClick={() => this.pickGame("def")}/>
       <br/>

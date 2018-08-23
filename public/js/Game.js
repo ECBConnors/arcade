@@ -29,7 +29,6 @@ class Game extends React.Component {
 
   render() {
     return <div id="gameDiv">
-      <h1> Game here</h1>
       <button onClick={this.toMenu}>Return to Menu</button>
     </div>
   }

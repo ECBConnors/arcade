@@ -13,11 +13,11 @@ score = 0;
 isGameOver = false;
 
 function preload() {
-  game.load.image('sky', 'assets/sky.png')
-  game.load.image('ground', 'assets/platform.png')
-  game.load.image('star', 'assets/star.png')
-  game.load.spritesheet('dude', 'assets/dude.png', 32, 48)
-  game.load.image('bomb', 'assets/bomb.png')
+  game.load.image('sky', 'art/sky.png')
+  game.load.image('ground', 'art/platform.png')
+  game.load.image('star', 'art/star.png')
+  game.load.spritesheet('dude', 'art/dude.png', 32, 48)
+  game.load.image('bomb', 'art/bomb.png')
 }
 
 function create() {

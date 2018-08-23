@@ -19,10 +19,10 @@ isGameOver = true;
 slowMoFactor = 1.0;
 
 function preload() {
-  game.load.image('bullet', '../assets/snakeBlock.png')
-  game.load.image('star', '../assets/star.png')
-  game.load.image('barrier', '../assets/barrier.png')
-  game.load.image('vertBarrier', '../assets/vertBarrier.png')
+  game.load.image('bullet', '../art/snakeBlock.png')
+  game.load.image('star', '../art/star.png')
+  game.load.image('barrier', '../art/barrier.png')
+  game.load.image('vertBarrier', '../art/vertBarrier.png')
 }
 
 function create() {
